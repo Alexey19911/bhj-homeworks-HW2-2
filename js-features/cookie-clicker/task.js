@@ -11,6 +11,7 @@ function updateCounter() {
     cookieImg.style.width = '200px';
     cookieImg.style.height = 'auto';
     isCookieResized = false;
+    
   } else {
     cookieImg.style.width = '150px';
     cookieImg.style.height = 'auto';

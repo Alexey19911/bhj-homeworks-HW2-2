@@ -1,5 +1,7 @@
 const deadCounter = document.getElementById('dead');
+
 const lostCounter = document.getElementById('lost');
+
 const holes = document.getElementsByClassName('hole');
 
 // Функция для получения элемента лунки по индексу
