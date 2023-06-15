@@ -1,7 +1,7 @@
-var cookieImg = document.getElementById('cookie');
-var clickCounter = document.getElementById('clicker__counter');
-var count = 0;
-var isCookieResized = false;
+let cookieImg = document.getElementById('cookie');
+let clickCounter = document.getElementById('clicker__counter');
+let count = 0;
+let isCookieResized = false;
 
 function updateCounter() {
   count++;
