@@ -8,12 +8,10 @@ function updateCounter() {
   clickCounter.textContent = count;
 
   if (isCookieResized) {
-    cookieImg.style.width = '200px';
-    cookieImg.style.height = 'auto';
+    cookieImg.width = ++clickCounter.textContent % 2 ? 250 : 200;
     isCookieResized = false;
   } else {
-    cookieImg.style.width = '150px';
-    cookieImg.style.height = 'auto';
+    cookieImg.width = ++clickCounter.textContent % 2 ? 150 : 100;
     isCookieResized = true;
   }
 }
