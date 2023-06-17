@@ -1,0 +1,4 @@
+.clicker__cookie--active {
+    transform: scale(1.2); /* Изменение масштаба печеньки на 1.2 */
+    transition: transform 0.1s; /* Плавное изменение масштаба в течение 0.1 секунды */
+  }
