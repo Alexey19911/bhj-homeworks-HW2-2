@@ -9,11 +9,9 @@ function updateCounter() {
 
   if (isCookieResized) {
     cookieImg.width = ++clickCounter.textContent % 2 ? 250 : 200;
-    isCookieResized = false;
-  } else {
+     } else {
     cookieImg.width = ++clickCounter.textContent % 2 ? 150 : 100;
-    isCookieResized = true;
-  }
+    }
 }
 
 cookieImg.addEventListener('click', updateCounter);
